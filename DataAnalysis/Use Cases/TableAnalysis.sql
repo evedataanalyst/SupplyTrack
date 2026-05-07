@@ -27,5 +27,24 @@ Question:
 How many products are in the catalog?
 */
 select count(*) 
-from products
+from products */
+
+5️⃣ Products by Category
+Question:
+How many products belong to each category?
+*/SELECT 
+    category,
+    COUNT(*) AS total_productos
+FROM products
+GROUP BY category; */
+
+6️⃣ Total Shipments
+Question:
+How many shipments have been created?
+*/SELECT COUNT(*) AS total_shipments
+FROM shipments;*/
+
+
+
+
 
